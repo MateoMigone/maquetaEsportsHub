@@ -1,0 +1,239 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+hr {
+  border: 2px black solid;
+  width: 95vw;
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff9800;
+}
+
+/* Estilos para la sección de bienvenida */
+.bienvenida {
+  text-align: center;
+  padding: 50px 0;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  margin: auto;
+}
+
+.bienvenida div {
+  background-image: url("https://esports.as.com/2018/03/16/reportajes/esports_1117998205_60112_1440x600.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.bienvenida h2 {
+  font-size: 36px;
+  padding: 20px 0;
+}
+
+.bienvenida p {
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+
+/* Estilos para la sección de red social */
+.social-network {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  width: 500px; /* Ancho cuadrado deseado */
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.post-header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.post-user-info {
+  flex-grow: 1;
+}
+
+.post-username {
+  font-size: 18px;
+  margin: 0;
+}
+
+.post-user-title {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+}
+
+.post-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  gap: 5px;
+  flex-grow: 1;
+}
+
+.post-content p {
+  font-size: 16px;
+  margin: 0;
+}
+.post-content div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid #ddd;
+  justify-self: end;
+}
+
+.post-content img {
+  height: 250px;
+  align-self: center;
+}
+
+.post-content span {
+  color: rgb(4, 4, 159);
+}
+
+/* Estilos para las tarjetas de torneos */
+.tournaments {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.tournaments h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.tournament-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 100px;
+  background-position: center;
+  background-size: cover;
+}
+
+.lol {
+  background-image: url("https://lol-stats.net/uploads/4oFJWfOt73gESxXmHb0aAyij5wSDnQU5shtOjf8p.jpeg");
+}
+
+.valorant {
+  background-image: url("https://dotesports.com/es/wp-content/uploads/sites/4/2022/03/10152704/VALORANT_YR1_KeyArt_4k_3_.0-2.jpg");
+}
+
+.csgo {
+  background-image: url("https://www.datocms-assets.com/92583/1662458895-blogbanner_csgo.jpeg?fit=fill&q=90&w=1600");
+}
+
+.tournament-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.tournament-card h3 {
+  font-size: 50px;
+  margin: 10px 0;
+  color: white;
+}
+
+.tournament-card p {
+  font-size: 14px;
+  color: #777;
+  margin: 10px 0;
+}
+
+.tournament-card a {
+  display: inline-block;
+  background-color: #fff;
+  color: #333;
+  padding: 16px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.tournament-card a:hover {
+  background-color: #ff9800;
+  color: #fff;
+}
+
+/* Estilos para el footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
